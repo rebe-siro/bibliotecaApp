@@ -29,7 +29,7 @@ public class ResourcesController implements ActionListener{
         this.querys = querys;
         this.view = view;
         this.view.jButtonSave.addActionListener(this);
-        this.view.jButtonEdit.addActionListener(this);
+        //this.view.jButtonEdit.addActionListener(this);
         //this.view.jButtonDelete.addActionListener(this);
         this.view.jButtonSearch.addActionListener(this);
         this.view.jButtonClean.addActionListener(this);
